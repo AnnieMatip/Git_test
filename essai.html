@@ -1,16 +1,40 @@
 <!DOCTYPE html>
-<html lang="fr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        
-        <title>Test </title>
-	</head>
-	
+<html lang="fr">
 
-	<body>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-		<!-- TITRE -->
-		<div>
-			<p>rien de special</p>
+	<title>Test </title>
+</head>
+
+
+<body>
+
+	<!-- TITRE -->
+	<div>
+		<p>rien de special</p>
+	</div>
+	<form action="">
+		<div class="form-group mb-3">
+			<label for="nomComplet">Nom de la classe:</label>
+			<input type="text" class="form-control form-control-lg" id="nomdelaclasse" placeholder="Entrez un nom"
+				name="nom">
 		</div>
-		
-	
-</body></html>
+
+		<div class="form-group">
+			<label for="section">Section:</label>
+			<select class="form-control form-control-lg" name="section">
+				<option value="Francophone">Francophone</option>
+				<option value="Anglophone">Anglophone</option>
+			</select>
+
+
+		</div>
+
+		<button type="submit" class="btn btn-primary btn-wide">Enregister</button>
+	</form>
+
+
+</body>
+
+</html>
